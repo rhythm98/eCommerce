@@ -1,0 +1,114 @@
+*{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	list-style:none;
+
+}
+.header{
+	display:block;
+	height:80px;
+	width:100%;
+	background-color:grey;
+
+}
+
+.logo{
+	margin-top:0.5%;
+	height:100%;
+	float:left;
+	margin-left:20%;
+	vertical-align: middle;
+}
+.logo h1{
+	color:white;
+	letter-spacing:2px;
+}
+.logo h3{
+	color:coral;
+}
+.nav{
+	padding-right:10%;
+
+
+	float:right;
+	height:100%;
+}
+.nav a{
+	height:100%;
+	float:left;
+	word-spacing:100px ;
+	display:table;
+
+
+}
+ a li{
+	color:white;
+	margin-top:20%;
+	
+	vertical-align: middle;
+	font-size:20px;
+	padding:20%;
+}
+.cart{
+	font-size:30px;
+	vertical-align:middle;
+	margin-top:10%;
+	height:100%;
+	color:white;
+}
+.searchbox{
+	width:30%;
+	border-radius:100px;
+	margin-left:10%;
+
+	margin-top:2%;
+	padding:4px;
+	border:1px solid white;
+
+}
+a li:hover{
+	color:black;
+
+}
+.btn{
+    color:white;
+}
+
+.menu1{
+	font-size:20px;
+	
+	
+}
+.menu1 ul li {
+	padding:20px;
+	border-top:1px solid #BDC3C7 ;
+    position:relative;	
+  	width:200px;
+	background-color:#34495E;
+	border-right:3px solid #F1C40F;
+
+}
+.menu1 ul li a{
+	color:white;
+}
+.menu1 ul li a:hover{
+	color:yellow;
+}
+.menu1 ul ul{
+	transition all:0;
+       opacity:0;
+       visibility:hidden;
+       position:absolute;
+       left:101%;
+       top:-2%;
+}
+.menu1 ul li:hover >ul{
+	opacity:1;
+	visibility:visible;
+      
+}
+.menu1 ul li:hover{
+       background-color: #2ECC71;
+
+}

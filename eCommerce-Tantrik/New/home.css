@@ -1,0 +1,17 @@
+.nav{
+    /*background-color: red;*/
+    width: 100000px;
+    height: 30px;
+}
+.input{
+    align-content: ;
+    width:250px;
+    border-radius: 10px;
+    border: 0;
+    box-shadow: 2px 2px 5px grey ;
+
+}
+ul{
+    list-style-type: none;
+    width: 80px;
+}
